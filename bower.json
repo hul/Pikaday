@@ -11,13 +11,15 @@
     "./pikaday.js",
     "./css/pikaday.css"
   ],
-  "dependencies": {},
   "ignore": [
     "**/.*",
     "node_modules",
-    "components"
+    "components",
+    "bower_components",
+    "test",
+    "tests"
   ],
-  "license" : [
+  "license": [
     "BSD",
     "MIT"
   ],
@@ -25,5 +27,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/hul/Pikaday.git"
-  }
+  },
+  "authors": [
+    "hul <lukasz@hulanicki.pl>"
+  ]
 }
